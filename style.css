@@ -74,6 +74,15 @@
     .event-text {
         border-color: rgb(91, 91, 91);
     }
+
+    .abib-main-selection a {
+        color: white;
+    }
+
+    .abib-main-description {
+        background-color: #505050;
+        border-color: rgb(91, 91, 91);
+    }
 }
 
 body {
@@ -246,7 +255,6 @@ header {
     justify-content:flex-start;
     gap: 2px;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 .secBdIMGphold img {
@@ -417,6 +425,56 @@ footer a:hover {
 
 .event-text:target {
     display: block;
+}
+
+.abib-section-main {
+    /* background-color: teal; */
+    width: 100%;
+    padding: 3rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    place-items: center;
+}
+
+.abib-main-selectionarea {
+    /* background-color:burlywood; */
+    width: 100%;
+    padding: 0.3rem;
+}
+
+.abib-main-selection {
+    /* background-color: brown; */
+    max-width: 100%;
+    text-indent: -1rem;
+    padding: 2rem;
+    border-bottom: 2px solid #ccc;
+}
+
+.abib-main-selection a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.abib-main-selection a:hover {
+    font-weight: 900;
+    transition: 0.2s ease;
+}
+
+.abib-main-description {
+    background-color: #ccc8bd;
+    max-width: 100%;
+    padding: 2rem;
+    scroll-margin-top: 200px;
+    border: 1px 1px 1px 1px solid #ccc;
+    display: none;
+}
+
+.abib-main-description:target {
+    display: block;
+    transition: all 0.5s ease;
 }
 
 h4 {
