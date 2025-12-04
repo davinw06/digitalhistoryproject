@@ -239,7 +239,7 @@ header {
     padding: 4rem;
     display: flex;
     flex-direction: column;
-    place-items: left;
+    place-items: center;
     justify-content: center;
     box-sizing: border-box;
 }
@@ -249,6 +249,7 @@ header {
     max-width: 100%;
     padding: 2rem;
     border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    text-align: left;
 }
 
 .secA2main {
