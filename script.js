@@ -86,11 +86,11 @@ document.addEventListener("DOMContentLoaded", function() {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add("visible");
-                observer.unobserve(entry.target); // only fade in once
+                observer.unobserve(entry.target); 
             }
         });
     }, {
-        threshold: 0.2 // start fading in when 20% of the element is visible
+        threshold: 0.2 
     });
 
     fadeElements.forEach(el => fadeObserver.observe(el));
