@@ -63,6 +63,10 @@
         color: white;
     }
 
+    .event-slot a:hover {
+        color: #cecece
+    }
+
     .event-slot a::before {
         background: white;
     }
@@ -383,6 +387,11 @@ footer a:hover {
     text-decoration: none;
     color: black;
     font-size: 14px;
+}
+
+.event-slot a:hover {
+    color: rgb(75, 75, 75);
+    transition: 0.2s ease;
 }
 
 .event-slot a::before {
